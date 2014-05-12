@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<!--TODO : unweebafy-->
+<!-- original homepage by noha, javascript by nullbyte, modified slightly and cleaned by geino.
+This homepage has been tested with Firefox and Chrome. -->
+
+<html>
+     
+    <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     
+    <title>Hi there.</title>
+     
+    </head>
+    <style>
+    a{
+            color:#c3c3c3;
+            font-family:"Segoe UI light";
+            font-size:25px;
+            text-decoration:none;
+            margin-left:5px;
+            transition-property: color;
+            transition-duration: .2s;
+            transition-timing-function: linear;
+    }
+    body{
+            padding-left:10px;
+            padding-right:10px;
+            font-family:"Segoe UI light";
+            color:#c8c8c8;
+            font-size:34px;
+            background:#FBFBFB;
+    }
+     
+    span{
+            margin-left:10px;
+            text-family:"segoe UI";
+            text-align: center;
+    }
+     
+    a:hover { color:#A9BFA5}
+     
+    input[type=text] {
+            width: 18px;
+            padding: 3px;
+            position:absolute;
+            right:5px;bottom:5px;
+            border: 1px solid #E6e6e6;
+            transition-property: all;
+            transition-duration: .5s;
+            transition-timing-function: ease;
+            color: #bebebe;
+			background-position: -2px -1px;
+			background-image: url('http://i.imgur.com/ziSic3u.png');
+			background-repeat: no-repeat;
+    }
+     
+    input[type=text]:hover {
+            border-color: #bebebe;
+            transition-property: all;
+            transition-duration: .5s;
+            transition-timing-function: ease;
+            color: #bebebe;
+			width:230px;
+			background-position: 230px -1px;
+			padding-right: 20px;
+    }
+	input[type=text]:focus {
+            border-color: #bebebe;
+            transition-property: all;
+            transition-duration: .5s;
+            transition-timing-function: ease;
+            color: #bebebe;
+			width:230px;
+			background-position: 230px -1px;
+			padding-right: 20px;
+	}
+     
+    .boxed {
+            border: 1px solid #e6e6e6;
+            padding: 5px;
+            color: #494949;
+            background-color: #ffffff;
+            width: 760px;
+            margin-left: -390px;
+            margin-right: auto;
+            position:absolute;
+            left: 50%;
+			top: 40%;
+    }
+     
+    h1 {
+          margin-bottom: 10px;
+		  margin-top: -73px;
+		  padding-right: 9px;
+		  position: 		   absolute;
+top:               40%;
+left:              50%;
+-webkit-transform: translate(-50%, -50%);
+transform:         translate(-50%, -50%);
+		  
+    }
+     
+    </style>
+
+            <body>
+            <h1 align="center" id="message"></h1>
+                <script type="text/javascript">
+                        var d = new Date();
+                        var n = d.getHours();
+ 
+                        if ( n == 23 || n == 0) {
+                                message = "<img src='goodnight.png'></img>";
+                        } else if ( n >= 1 && n <= 4 ) {
+                                message = "<img src='goodnight.png'></img>";
+                        } else if ( n >= 5 && n <= 11 ) {
+                                message = "<img src='goodmorning.png'></img>";
+                        } else if ( n >= 12 && n <= 17 ) {
+                                message = "<img src='goodafternoon.png'></img>";
+                        } else if ( n >= 18 && n <= 22 ) {
+                                message = "<img src='goodevening.png'></img>";
+                        }
+ 
+                        document.getElementById("message").innerHTML = message;
+                </script>
+                
+            <div class="boxed">
+            <span> <img src="social.png"></span>
+            <a style="padding-left:10px"
+            href="https://youtube.com">youtube</a>
+			<a href="https://www.tumblr.com">tumblr</a>
+            <a href="http://www.vimeo.com">vimeo</a>
+            </br>
+            <span> <img src="music.png"></span>
+            <a style="padding-left:10px" href="http://www.last.fm">last.fm</a>
+            <a href="http://bandcamp.com">bandcamp</a>
+            </br>
+            <span> <img src="mail.png"></span>
+            <a style="padding-left:10px" href="http://mail.ru">email</a>
+<a href="http://webmail.ec.auckland.ac.nz/">uni mail</a>
+<a href="https://cock.li/">alt mail</a>
+            </br>
+			<span> <img src="reddit.png"></span>
+			<a style="padding-left:10px" href="http://reddit.com/r/technology">tech</a>
+			<a href="http://reddit.com/r/music">music</a>
+			<a href="http://reddit.com">front</a>
+			</br>
+            <span> <img src="school.png"></span>
+            <a style="padding-left:10px" href="http://www.cecil.auckland.ac.nz">cecil</a>
+<a href="http://www.library.auckland.ac.nz/">library</a>
+<a href="http://www.jstor.org/">jstor</a>
+<a href="http://www.turnitin.com/">turnitin</a>
+           
+            </div>
+     
+    </body>
+
