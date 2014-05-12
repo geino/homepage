@@ -1,7 +1,10 @@
 homepage
 ========
+My Firefox homepage //Also compatible with Chrome, Chromium, Safari [I think] and Midori.
 
-My Firefox homepage (Also compatible with Chrome, Chromium, Safari (I think) and Midori)
+Download the zip at - http://a.pomf.se/shigmi.zip
+Extract the zip and put the folder anywhere you want.
+
 It utilises simple Javascript to rotate the displayed Japanese banner depending on the time of day
 e.g. in the morning it displays "oh hayo".
 If you don't like Japanese I've included English banners as well that read "Good morning", "Good afternoon" etc.
